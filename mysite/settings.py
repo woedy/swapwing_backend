@@ -34,7 +34,7 @@ EMAIL_HOST_USER = 'etornamasamoah@gmail.com'
 EMAIL_HOST_PASSWORD = 'yrmdporxqxmrvwam'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'Samahat Barter <samahatbarter@gmail.com>'
+DEFAULT_FROM_EMAIL = 'SwapWing <samahatbarter@gmail.com>'
 BASE_URL = '0.0.0.0:80'
 
 AUTH_USER_MODEL = 'accounts.User'

@@ -22,6 +22,7 @@ def get_all_listings(request):
 
     if request.method == 'GET':
         user_id = request.query_params.get('user_id', None)
+        company = request.query_params.get('company', None)
 
         if not user_id:
             payload['response'] = "Error"
